@@ -1,8 +1,14 @@
+#streamlit imports
 import streamlit as st
 import streamlit_extras as stE
 import streamlit_lottie as stL
 import streamlit_option_menu as opMen
 import streamlit_ace as stAce
+
+#wide layout to make sure explanation and code can fit the page
+st.set_page_config(layout="wide", page_title='OOP for Beginners')
+
+#module/class imports
 from Pet import Pet
 from Dog import Dog
 from Cat import Cat
@@ -12,8 +18,7 @@ def main():
     #page title, will appear on page in Large font
     st.title('Object Oriented Programming Example')
 
-    #wide layout to make sure explanation and code can fit the page
-    st.set_page_config(layout="wide")
+    
 
     #initialize the columns to display explanation next to buttons/text areas
     col1, col2 = st.columns(2)
