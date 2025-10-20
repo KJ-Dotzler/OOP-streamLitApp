@@ -1,0 +1,5 @@
+streamlit
+streamlit-option-menu
+streamlit-lottie
+streamlit-aggrid
+streamlit-extras
